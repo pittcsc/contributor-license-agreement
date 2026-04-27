@@ -12,7 +12,7 @@ TODO: actually write the CLA lol
 
 TODO: explain how to sign
 
-## Maintainers
+## Note for Maintainers
 
 TODO: update this to be accurate, not 100% sure how PATs work
 
@@ -52,9 +52,9 @@ This means that the world is changing, and that the people getting hired are the
 We hope that the projects at CSC can exist as opportunities for people to be challenged, and to provide the enviornments and support for you to overcome those challenges and problems. 
 
 
-### Permitted Uses of AI
+### Permitted and Prohibited Uses of AI
 
-We recognize that modern development across the industry does include AI-assisted development, and we want to clarify that there is a difference between tooling and authorship. The first time you do something, you should do it yourself. The fifth, tenth, fifteenth time, AI can increase your productivity because you have the mental model to evaluate whether its output is correct. You cannot evaluate what you do not understand, and you cannot understand what you have never struggled through.
+We recognize that modern development across the industry does include AI-assisted development, and we want to clarify that there is a difference between tooling and authorship. The first time you do something, you should do it yourself. The fifth, tenth, fifteenth time, AI can increase your productivity because you have the _mental model_ to evaluate whether its output is correct. You cannot evaluate what you do not understand, and you cannot understand what you have never struggled through.
 
 Using AI tools (e.g., GitHub Copilot, Tabnine, or ChatGPT) as a highly advanced autocomplete, for generating standard boilerplate, finding syntax errors, or writing basic unit test scaffolding. The core logic, architectural decisions, and vast majority of the keystrokes must be yours.
 
