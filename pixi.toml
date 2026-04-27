@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Aarash Zakeri <izear21@gmail.com>"]
+channels = ["conda-forge"]
+name = "contributor-license-agreement"
+platforms = ["osx-64"]
+version = "0.1.0"
+
+[tasks]
+lint = { cmd = ["ruff", "check", "--fix", "--config", ".ruff.toml", "./"]}
+format = {depends-on = ["lint"], cmd = ["ruff", "check", "--select", "I", "--fix", "&&", "ruff", "format", "--config", ".ruff.toml", "./"]}
+
+[dependencies]
+ruff = ">=0.15.11,<0.16"
+python = ">=3.14.4,<3.15"
