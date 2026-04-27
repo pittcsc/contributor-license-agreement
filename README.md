@@ -27,7 +27,7 @@ Or you can create a new repository using our premade template, and all that need
 
 PittCSC values first-principles engineering and true concept mastery. Because of that, we encourage our software contributions to reflect genuine human authorship. After all, this is a school club, so to promote an enviornment of learning and to reduce pressure on contributors across all backgrounds, we have this agreement between the club and the contributor to not submit code generated purely by Artificial Intelligence (AI).
 
-### There are many reasons to encourage students to follow this agreement. 
+### There are many reasons to encourage students to follow this agreement
 
 We know that large language models (LLMs) can write functional code. This allows for people to accomplish feats that they may not be capable of otherwise, and can increase productivity across the board. However, there is just as great of a negative effect, and we want you to understand is what the evidence actually says about what that costs you, and why this agreement exists.
 
@@ -56,6 +56,6 @@ We hope that the projects at CSC can exist as opportunities for people to be cha
 
 We recognize that modern development across the industry does include AI-assisted development, and we want to clarify that there is a difference between tooling and authorship. The first time you do something, you should do it yourself. The fifth, tenth, fifteenth time, AI can increase your productivity because you have the _mental model_ to evaluate whether its output is correct. You cannot evaluate what you do not understand, and you cannot understand what you have never struggled through.
 
-Using AI tools (e.g., GitHub Copilot, Tabnine, or ChatGPT) as a highly advanced autocomplete, for generating standard boilerplate, finding syntax errors, or writing basic unit test scaffolding. The core logic, architectural decisions, and vast majority of the keystrokes must be yours.
+Using AI tools (e.g., GitHub Copilot, Tabnine, or ChatGPT) as a highly advanced autocomplete, for generating standard boilerplate, finding syntax errors, or writing basic unit test scaffolding is permitted and does not require disclosure. The core logic, architectural decisions, and vast majority of the keystrokes must be yours.
 
-However, Prompting an AI to write functions, classes, or modules and copy-pasting the raw output into our codebase. If a court would consider the AI the primary author of the specific block of code, it cannot be merged into this repository.
+However, Prompting an AI to write functions, classes, or modules and copy-pasting the raw output into our codebase does require disclosure, and it's then up to a maintainer to review the submitted code. A general rule of thumb we suggest is that if a court would consider the AI as the primary author of a specific block of code, it cannot be merged into any repository.
