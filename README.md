@@ -27,7 +27,7 @@ You only need to sign the agreement once. After your signature is recorded, you 
 
 ## Note for Maintainers
 
-Any new repository made must include the [cla-sign-listener.yml]() and [cla-verify-listener.yml]() in `.github/workflows/`, and the Personal Access Token (PAT) must be added to the Repository Secrets under `CLA_BOT_PAT` with the following fine-grained permissions:
+Any new repository made must include the [cla-sign-listener.yml](https://github.com/pittcsc/contributor-license-agreement/blob/main/.github/workflows/cla-sign-listener.yml) and [cla-verify-listener.yml](https://github.com/pittcsc/contributor-license-agreement/blob/main/.github/workflows/cla-verify-listener.yml) in `.github/workflows/`, and the Personal Access Token (PAT) must be added to the Repository Secrets under `CLA_BOT_PAT` with the following fine-grained permissions:
 
 - Read access to metadata
 - Read and write access to code and pull requests
@@ -48,7 +48,7 @@ There are many examples of research about how LLMs and their effects on people.
 
 1) A [2025 randomized controlled trial](https://www.pnas.org/doi/10.1073/pnas.2422633122) with nearly 1,000 students found that students given unrestricted access to GPT-4 performed 48% better during practice, but 17% worse on exams when the tool was taken away. They had learned less than students who had no AI at all. Worst of all, they did not realize they were learning less, as they rated their own learning just as highly as the control group.
 2) An [MIT Media Lab study](https://arxiv.org/abs/2506.08872) tracked brain activity over four months and found that LLM users showed progressively weaker neural engagement. When the LLM was removed, their cognitive activity did not bounce back. The researchers describe this as “cognitive debt”: short-term convenience purchased at the cost of deeper encoding.
-3) A [Gallup/Walton Foundation survey](https://hbr.org/2026/01/how-gen-z-uses-gen-ai-and-why-it-worries-them) of 2,500 adults your age found that 79% believe AI makes people lazier and 62% worry it makes people less intelligent, yet 74% used it in the past month anyway. One in six reported using it at work even when told not to. People are not unaware of the problem, they're stuck in it. 
+3) A [Gallup/Walton Foundation survey](https://hbr.org/2026/01/how-gen-z-uses-gen-ai-and-why-it-worries-them) of 2,500 adults in their early twenties found that 79% believe AI makes people lazier and 62% worry it makes people less intelligent, yet 74% used it in the past month anyway. One in six reported using it at work even when told not to. People are not unaware of the problem, they're stuck in it. 
 
 ### Industry Trends Since ChatGPT Launched
 
@@ -58,7 +58,7 @@ Entry-level hiring at major tech companies dropped roughly 25% year-over-year in
 
 ### What does this mean?
 
-This means that the world is changing, and that the people getting hired are the ones who can do things LLMs cannot, and can be better, faster, and equally reliable when using an LLM. Now more than ever, it's important to build skills in understanding system failures, debugging problems you haven't encountered before, make core data structures and architectural designs for projects, and explain your reasoning to other people. This isn't something you build by reading an LLMs output, but by struggling through problems yourself, getting stuck, fixing the problem, getting stuck again, and then finally getting it right. 
+This means that the world is changing, and that the people getting hired are the ones who can do things LLMs cannot, and can be better, faster, and equally reliable when using an LLM. Now more than ever, it's important to build skills in understanding system failures, debugging problems you haven't encountered before, designing core data structures and architectural designs for projects, and explaining your reasoning to other people. This isn't something you build by reading an LLMs output, but by struggling through problems yourself, getting stuck, fixing the problem, getting stuck again, and then finally getting it right. 
 
 We hope that the projects at CSC can exist as opportunities for people to be challenged, and to provide the enviornments and support for you to overcome those challenges and problems. 
 
