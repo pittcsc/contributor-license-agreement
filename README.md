@@ -6,15 +6,26 @@ Welcome to the central repository for the Contributor License Agreement (CLA) of
 
 Students across the world rely on CSC maintained tools and infrastructure, whether it's a someone at Pitt trying to figure out their classes, somebody else trying to apply to Steelhacks, or somebody who's using the simplify repo to apply to jobs. It is imperative we have an agreement that ensures contributors own their work since it has the potential to impact any number of people.
 
-TODO: actually write the CLA lol
+Read the full agreement here: [CLA Document](https://github.com/pittcsc/contributor-license-agreement/blob/main/CLA.md).
 
 ## How to Sign
 
-TODO: explain how to sign
+You do not need to print or email any documents.
+We use an automated bot to handle signatures directly within GitHub.
+
+When you submit your first Pull Request to any repository under the Scientific Computing Studio umbrella, simply leave the following exact phrase as a comment on your PR:
+
+> I have read the CLA Document and I hereby sign the CLA
+
+### What happens next?
+
+1. Our centralized GitHub Action will detect your comment.
+2. The bot will securely record your GitHub Handle, ID, and the timestamp in our public [`signatures/cla.json` registry](https://github.com/pittcsc/contributor-license-agreement/blob/main/signatures/cla.json).
+3. The bot will leave a confirmation comment on your PR indicating that your signature was successful.
+
+You only need to sign the agreement once. After your signature is recorded, you are cleared to contribute to any repository within the organization.
 
 ## Note for Maintainers
-
-TODO: update this to be accurate, not 100% sure how PATs work
 
 Any new repository made must include the [cla-sign-listener.yml]() and [cla-verify-listener.yml]() in `.github/workflows/`, and the Personal Access Token (PAT) must be added to the Repository Secrets under `CLA_BOT_PAT` with the following fine-grained permissions:
 
