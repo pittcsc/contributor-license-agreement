@@ -29,4 +29,4 @@ Except for the license granted herein to PittCSC and the recipients of software 
 2. You represent that each of Your Contributions is Your original creation.
    You represent that Your Contribution submissions include complete details of any third-party license or other restriction (including, but not limited to, related patents and trademarks) of which you are personally aware and which are associated with any part of Your Contributions.
 
-3.  You agree to notify PittCSC of any facts or circumstances of which You become aware that would make any of the representations and warranties contained in this Agreement inaccurate in any respect.
+3. You agree to notify PittCSC of any facts or circumstances of which You become aware that would make any of the representations and warranties contained in this Agreement inaccurate in any respect.
