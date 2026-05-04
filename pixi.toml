@@ -2,7 +2,7 @@
 authors = ["Aarash Zakeri <izear21@gmail.com>"]
 channels = ["conda-forge"]
 name = "contributor-license-agreement"
-platforms = ["osx-64"]
+platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
 version = "0.1.0"
 
 [tasks]
