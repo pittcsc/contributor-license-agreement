@@ -8,7 +8,7 @@ To clarify the intellectual property license granted with Contributions from any
 This license is for your protection as a Contributor, as well as the protection of PittCSC and its users.
 It does not change your rights to use your own Contributions for any other purpose.
 
-By commenting "I have read the CLA Document and I hereby sign the CLA", You accept and agree to the following terms and conditions for Your present and future Contributions submitted to any PittCSC project.
+By commenting "I have read and agree to the PittCSC CLA", You accept and agree to the following terms and conditions for Your present and future Contributions submitted to any PittCSC project.
 Except for the license granted herein to PittCSC and the recipients of software distributed by PittCSC, You reserve all right, title, and interest in and to Your Contributions.
 
 1. **Definitions.**
