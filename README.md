@@ -13,9 +13,9 @@ Read the full agreement here: [CLA Document](https://github.com/pittcsc/contribu
 You do not need to print or email any documents.
 We use an automated bot to handle signatures directly within GitHub.
 
-When you submit your first Pull Request to any repository under the Scientific Computing Studio umbrella, simply leave the following exact phrase as a comment on your PR:
+When you submit your first Pull Request to any repository under the PittCSC organization, simply leave the following exact phrase as a comment on your PR:
 
-> I have read the CLA Document and I hereby sign the CLA
+> I have read and agree to the PittCSC CLA
 
 ### What happens next?
 
@@ -42,7 +42,7 @@ PittCSC values first-principles engineering and true concept mastery. Because of
 
 We know that large language models (LLMs) can write functional code. This allows for people to accomplish feats that they may not be capable of otherwise, and can increase productivity across the board. However, there is just as great of a negative effect, and we want you to understand is what the evidence actually says about what that costs you, and why this agreement exists.
 
-### The Current Research on Congnitive Debt
+### The Current Research on Cognitive Debt
 
 There are many examples of research about how LLMs and their effects on people.
 
@@ -70,3 +70,16 @@ We recognize that modern development across the industry does include AI-assiste
 Using AI tools (e.g., GitHub Copilot, Tabnine, or ChatGPT) as a highly advanced autocomplete, for generating standard boilerplate, finding syntax errors, or writing basic unit test scaffolding is permitted and does not require disclosure. The core logic, architectural decisions, and vast majority of the keystrokes must be yours.
 
 However, Prompting an AI to write functions, classes, or modules and copy-pasting the raw output into our codebase does require disclosure, and it's then up to a maintainer to review the submitted code. A general rule of thumb we suggest is that if a court would consider the AI as the primary author of a specific block of code, it cannot be merged into any repository.
+
+
+## Attribution and Acknowledgements
+
+PittCSC is grateful to the open source communities that inspire us and many others. We'd like to thank the other examples of a CLA that inspired this one. 
+
+- [Modular](https://github.com/modular)
+- [Scientific Computing Studio](https://github.com/scienting)
+- [PNAS](https://www.pnas.org)
+- [MIT Media Lab](https://www.media.mit.edu)
+- [HBR](https://hbr.org)
+- [Stanford Digital Economy Lab](https://digitaleconomy.stanford.edu)
+- [Credit Union Times](https://www.cutimes.com)
