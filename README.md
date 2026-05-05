@@ -80,6 +80,6 @@ PittCSC is grateful to the open source communities that inspire us and many othe
 - [Scientific Computing Studio](https://github.com/scienting)
 - [PNAS](https://www.pnas.org)
 - [MIT Media Lab](https://www.media.mit.edu)
-- [HBR](https://hbr.org)
+- [Harvard Business Review](https://hbr.org)
 - [Stanford Digital Economy Lab](https://digitaleconomy.stanford.edu)
 - [Credit Union Times](https://www.cutimes.com)
