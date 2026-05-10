@@ -73,12 +73,12 @@ We recognize that modern development across the industry does include AI-assiste
 
 Using AI tools (e.g., GitHub Copilot, Tabnine, or ChatGPT) as a highly advanced autocomplete, for generating standard boilerplate, finding syntax errors, or writing basic unit test scaffolding is permitted and does not require disclosure. The core logic, architectural decisions, and vast majority of the keystrokes must be yours.
 
-However, Prompting an AI to write functions, classes, or modules and copy-pasting the raw output into our codebase does require disclosure, and it's then up to a maintainer to review the submitted code. A general rule of thumb we suggest is that if a court would consider the AI as the primary author of a specific block of code, it cannot be merged into any repository.
+However, prompting an AI to write functions, classes, or modules and copy-pasting the raw output into our codebase does require disclosure, and it's then up to a maintainer to review the submitted code. A general rule of thumb we suggest is that if a court would consider the AI as the primary author of a specific block of code, it cannot be merged into any repository.
 
 
 ## Attribution and Acknowledgements
 
-PittCSC is grateful to the open source communities that inspire us and many others. We'd like to thank the other examples of a CLA that inspired this one. 
+PittCSC is grateful to the open source communities that inspire us and many others. We'd like to thank other examples of a CLA that inspired this one, and the studies done on the current job market that inspired PittCSC's CLA. 
 
 - [Modular](https://github.com/modular)
 - [Scientific Computing Studio](https://github.com/scienting)
