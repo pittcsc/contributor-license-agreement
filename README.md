@@ -27,12 +27,16 @@ You only need to sign the agreement once. After your signature is recorded, you 
 
 ## Note for Maintainers
 
-Any new repository made must include the [cla-sign-listener.yml](https://github.com/pittcsc/contributor-license-agreement/blob/main/.github/workflows/cla-sign-listener.yml) and [cla-verify-listener.yml](https://github.com/pittcsc/contributor-license-agreement/blob/main/.github/workflows/cla-verify-listener.yml) in `.github/workflows/`, and the Personal Access Token (PAT) must be added to the Repository Secrets under `CLA_BOT_PAT` with the following fine-grained permissions:
+Any new repository made must include the [cla-sign-listener.yml](https://github.com/pittcsc/contributor-license-agreement/blob/main/.github/workflows/cla-sign-listener.yml) and [cla-verify-listener.yml](https://github.com/pittcsc/contributor-license-agreement/blob/main/.github/workflows/cla-verify-listener.yml) in `.github/workflows/`, and the Personal Access Token (PAT) must be added to the Repository Secrets under `CLA_BOT_PAT` with the following fine-grained permissions for **ALL** repositories:
 
-- Read access to metadata
-- Read and write access to code and pull requests
+- Read access to `Contents`
+- Read and write access to `Issues`
+- Read and write access to `Pull Requests`
+- Read access to `Metadata` should be automatically added
 
-Or you can create a new repository using our premade template, and all that needs to be done is adding the PAT. 
+The token resets every 366 days, must be created under the PittCSC organization, and can be used as an organization secret so you don't need to add the secret to every new repo. 
+
+In the spirit of simplifying things, there is a repo template with the CLA workflows for to simplify the creation of new projects. 
 
 ## AI-Generated Code and Intellectual Property
 
