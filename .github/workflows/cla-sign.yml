@@ -59,7 +59,7 @@ jobs:
         if: steps.commit-step.outputs.signed == 'true'
         uses: actions/github-script@v9
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.CLA_BOT_TOKEN }}
           script: |
             github.rest.issues.createComment({
               issue_number: context.issue.number,
