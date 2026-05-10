@@ -3,7 +3,7 @@ name: CLA Signing
 on:
   workflow_call:
     secrets:
-      CLA_BOT_PAT:
+      CLA_BOT_TOKEN:
         description: 'A Personal Access Token with repo write permissions'
         required: true
 
@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v6
         with:
           repository: 'pittcsc/contributor-license-agreement'
-          token: ${{ secrets.CLA_BOT_PAT }}
+          token: ${{ secrets.CLA_BOT_TOKEN }}
           path: 'cla-repo'
 
       - name: Install pixi
