@@ -33,7 +33,7 @@ jobs:
         if: steps.check.outputs.signed == 'false'
         uses: actions/github-script@v9
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.CLA_BOT_TOKEN }}
           script: |
             // Get all comments on the PR to prevent spamming the user
             const comments = await github.rest.issues.listComments({
