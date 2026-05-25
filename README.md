@@ -29,7 +29,7 @@ You only need to sign the agreement once. After your signature is recorded, you 
 
 Any new repository made must include the [cla-sign-listener.yml](https://github.com/pittcsc/contributor-license-agreement/blob/main/.github/workflows/cla-sign-listener.yml) and [cla-verify-listener.yml](https://github.com/pittcsc/contributor-license-agreement/blob/main/.github/workflows/cla-verify-listener.yml) in `.github/workflows/`, and the Personal Access Token (PAT) must be added to the Repository Secrets under `CLA_BOT_TOKEN` with the following fine-grained permissions for **ALL** repositories:
 
-- Read access to `Contents`
+- Read and write access to `Contents`
 - Read and write access to `Issues`
 - Read and write access to `Pull Requests`
 - Read access to `Metadata` should be automatically added
