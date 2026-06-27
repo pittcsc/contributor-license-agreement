@@ -36,7 +36,7 @@ Any new repository made must include the [cla-sign-listener.yml](https://github.
 
 The token resets every 366 days, must be created under the PittCSC organization, and can be used as an organization secret so you don't need to add the secret to every new repo. 
 
-In the spirit of simplifying things, there is a repo template with the CLA workflows for to simplify the creation of new projects. 
+In the spirit of simplifying things, there is a repo template with the CLA workflows to simplify the creation of new projects. 
 
 ## AI-Generated Code and Intellectual Property
 
